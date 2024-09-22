@@ -5,7 +5,7 @@
 
 <div class="row">
 
-    <h1 class="text-center">Edit Campground</h1>
+    <h1 class="text-center">Edit Complex</h1>
     <div class="col-6 offset-3">
 
     
@@ -20,11 +20,11 @@
                 <input class="form-control" type="text" id="location" name="campground[location]" value="<%= campground.location %>">
             </div>
 <div >
-    <label class="form-label" for="price">Price:</label>
+    <label class="form-label" for="price">Parking-Price:</label>
 </div>
             <div class="input-group mb-3">
                
-                <span class="input-group-text" id="basic-addon1">$</span>
+                <span class="input-group-text" id="basic-addon1">Rs.</span>
                 <input type="text" id="price" class="form-control" placeholder="0.00" aria-label="Price" aria-describedby="basic-addon1" name="campground[price]" value="<%= campground.price %>">
               </div>
 
@@ -54,9 +54,9 @@
 
             </div>
        
-            <button class="btn btn-info">Update Campground</button>
+            <button class="btn btn-info">Update Complex</button>
         </form>
-        <a href= "/campgrounds/<%= campground._id %>" > back to campground</a>
+        <a href= "/campgrounds/<%= campground._id %>" > Back to Shopping-Complex</a>
 
 
     </div>

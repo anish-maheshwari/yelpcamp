@@ -21,7 +21,7 @@ module.exports.signedUp = async(req,res,next)=>{try{
             next(err);
         }
         else {
-            req.flash('success',"Welcome to yelp-calm");
+            req.flash('success',"Welcome to Shopanion");
             res.redirect("/campgrounds");
         }
         
